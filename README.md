@@ -22,9 +22,9 @@ This project employs the VGG16 architecture for feature extraction with an empha
 1. Clone this repository to your local machine.
 2. Install the required dependencies.
 3. Ensure your dataset is structured as follows:
-  - dataset/: The root directory containing the entire dataset, containing folders 'class 0' and 'class 1'.
-  - class 0/: This folder contains all the colored images, used as one class in the model.
-  - class 1/: This folder contains all the grayscale images, used as the other class in the model.
+    - dataset/: The root directory containing the entire dataset, containing folders 'class 0' and 'class 1'.
+    - class 0/: This folder contains all the colored images, used as one class in the model.
+    - class 1/: This folder contains all the grayscale images, used as the other class in the model.
 
 ## Preprocessing
 
