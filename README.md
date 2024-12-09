@@ -116,7 +116,9 @@ The following images showcase the input grayscale images and the corresponding c
 
 **1. Utilizing Larger and More Diverse Datasets**
   - The model's capacity to generalise and correctly colourize a range of input photos can be enhanced by enlarging the training dataset to encompass a wider range of images (such as objects, animals, and landscapes). Prior to fine-tuning on domain-specific images, the model's initial performance may be enhanced by pre-training it on a sizable colourization dataset.
+
 **2. Enhancing Colorization Quality with Generative Models**
   - The existing results show noticeable artefacts and partial colourization. The realism and brilliance of the generated colours could be further enhanced by including sophisticated generative models, such as **Generative Adversarial Networks (GANs)**. Complex colour distributions can be effectively learnt by GANs, particularly Conditional GANs, producing more realistic and aesthetically pleasing outcomes.
+
 **3. Refining the Decoder Architecture**
   - By adding **attention mechanisms** to concentrate on particular areas of the image that need in-depth colourization, the decoder network can be further optimised. Furthermore, experimenting with more complex or specialised designs (like U-Net) might improve the mapping of greyscale data to colours, leading to noise reduction and smoother transitions.
