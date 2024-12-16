@@ -45,9 +45,10 @@ Extract the zipped folder into a directory called selected_images.
   - Run the fourth block of code to convert all colored images in the colored_images directory into grayscale images. The grayscale images are saved in a directory called grayscale_images.
 
 _**Importance of Targeted Data**_
+
 While the COCO dataset provides a diverse set of training examples, it may not sufficiently train the model to recognize and colorize specific items accurately. By creating a targeted dataset, we taught the models to associate specific objects with their correct colors, improving performance and reducing generalization errors, such as overly green tints.
 
-**Methodologies**
+## Methodologies
 
 We began our journey with VGG16, a simple and widely used model for feature extraction, and progressively advanced to Pix2Pix GAN, leveraging its generative capabilities to achieve high-quality and realistic colorization results.
 
